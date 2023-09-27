@@ -1,0 +1,87 @@
+.outerblock {
+    width: 950px;
+    height: auto;
+    display: block;
+    margin: 50px auto 0;
+    box-sizing: border-box;
+    padding: 15px;
+    border: #000 2px solid;
+    border-radius: 14px;
+    background-color: bisque;
+}
+
+.app-header {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border-radius: 14px;
+    background-color: coral;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.app-body {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.app-body .blocks {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.app-body .blocks>div {
+    width: 185px;
+    float: left;
+    background-color: rgb(235, 113, 113);
+    border-radius: 30px;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.app-body .blocks>div:nth-child(1) {
+    margin-right: 15px;
+    padding: 25px auto;
+}
+
+.app-body .blocks>div:nth-child(2) {
+    margin-left: 15px;
+    padding: 25px auto;
+}
+
+.button-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-footer button {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    background-color: #000;
+    color: beige;
+    padding: 15px 15px;
+    font-size: large;
+}
+
+.size1 {
+    font-size: 35px;
+}
+
+.size2 {
+    font-size: 35px;
+}
